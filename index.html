@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Là ça marche???? Hello world!</h1>
+  <body class="bg-gray-900 flex justify-center flex-col">
+    <header class="header flex text-white justify-center items-center flex-col gap-10 p-10">
+      <h2 class="header__title font-bold text-3xl">adamkeyes</h2>
+      <nav class="header__nav flex flex-row justify-center gap-12">
+        <img src="./public/Icons/icon-github.svg" alt="git" class="header__nav-pic w-8">
+        <img src="./public/Icons/icon-frontend-mentor.svg" alt="front" class="header__nav-pic w-8">
+        <img src="./public/Icons/icon-linkedin.svg" alt="link" class="header__nav-pic w-8">
+        <img src="./public/Icons/icon-twitter.svg" alt="twitter" class="header__nav-pic w-8">
+      </nav>
+    </header>
+    <figure class="figure flex justify-center -translate-y-50 text-white flex-col items-center gap-5 text-center">
+      <div class="figure__main flex gap-3 flex-col items-center">
+        <img src="./public/Profile/image-profile-mobile.webp" class="figure__img w-90">
+        <h2 class="figure__main-h2 font-bold text-5xl">Nice to meet you!</h2>
+        <h2 class="figure__main-h2 font-bold text-5xl">I'm <bold class="underline">Adam Keyes.</bold></h2>
+      </div>
+      <p class="figure__p w-110 text-2xl">Based in the UK, I'am a front-end developer passionate about building accesssible web apps that users love.</p>
+      <h2 class="figure__contact cap">Contact me</h2>
+    </figure>
   </body>
 </html>
